@@ -88,9 +88,9 @@ Check out what to do next in the "[Getting Started Guide](./docs/tutorials/01-ge
 
 1.  (Optional) Set your preferred flavor, it defaults to `"mocha"`:
 
-        ```bash
-        set -g @catppuccin_flavor 'mocha' # latte, frappe, macchiato or mocha
-        ```
+    ```bash
+    set -g @catppuccin_flavor 'mocha' # latte, frappe, macchiato or mocha
+    ```
 
     <!-- x-release-please-end -->
 
@@ -128,7 +128,7 @@ set -gF window-status-current-format "#[bg=#{@ctp_mauve},fg=#{@ctp_crust}] ##I #
 ### Upgrading from v0.3
 
 Breaking changes have been introduced since 0.3, to understand how to migrate
-your configuration, see pinned issue [#291](https://github.com/catppuccin/tmux/issues/291).
+your configuration, see pinned issue [#487](https://github.com/catppuccin/tmux/issues/487).
 
 ## Recommended Default Configuration
 
@@ -151,7 +151,7 @@ set -g @catppuccin_window_status_style "rounded"
 
 # Load catppuccin
 run ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux
-# For TPM, instead use `run ~/.config/tmux/plugins/tmux/catppuccin.tmux`
+# For TPM, instead use `run ~/.tmux/plugins/tmux/catppuccin.tmux`
 
 # Make the status line pretty and add some modules
 set -g status-right-length 100
