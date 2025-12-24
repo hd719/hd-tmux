@@ -85,26 +85,6 @@ set -g @catppuccin_pane_default_text "##{b:pane_current_path}"
 set -g @catppuccin_pane_default_fill "number"
 set -g @catppuccin_pane_number_position "left" # right, left
 
-<<<<<<< HEAD
-set -ogq @catppuccin_window_status_style "basic" # basic, rounded, slanted, custom, or none
-set -ogq @catppuccin_window_text_color "#{@thm_surface_0}"
-set -ogq @catppuccin_window_number_color "#{@thm_overlay_2}"
-set -ogq @catppuccin_window_text " #T"
-set -ogq @catppuccin_window_number "#I"
-set -ogq @catppuccin_window_current_text_color "#{@thm_surface_1}"
-set -ogq @catppuccin_window_current_number_color "#{@thm_mauve}"
-set -ogq @catppuccin_window_current_text " #T"
-set -ogq @catppuccin_window_current_number "#I"
-set -ogq @catppuccin_window_number_position "left"
-set -ogq @catppuccin_window_flags "none"
-set -ogq @catppuccin_window_flags_icon_last " 󰖰" # -
-set -ogq @catppuccin_window_flags_icon_current " 󰖯" # *
-set -ogq @catppuccin_window_flags_icon_zoom " 󰁌" # Z
-set -ogq @catppuccin_window_flags_icon_mark " 󰃀" # M
-set -ogq @catppuccin_window_flags_icon_silent " 󰂛" # ~
-set -ogq @catppuccin_window_flags_icon_activity " 󱅫" # #
-set -ogq @catppuccin_window_flags_icon_bell " 󰂞" # !
-=======
 set -g @catppuccin_window_status_style "basic" # basic, rounded, slanted, custom, or none
 set -g @catppuccin_window_text_color "#{@thm_surface_0}"
 set -g @catppuccin_window_number_color "#{@thm_overlay_2}"
@@ -123,7 +103,6 @@ set -g @catppuccin_window_flags_icon_mark " 󰃀" # M
 set -g @catppuccin_window_flags_icon_silent " 󰂛" # ~
 set -g @catppuccin_window_flags_icon_activity " 󱅫" # #
 set -g @catppuccin_window_flags_icon_bell " 󰂞" # !
->>>>>>> upstream/main
 # Matches icon order when using `#F` (`#!~[*-]MZ`)
 set -g @catppuccin_window_flags_icon_format "##{?window_activity_flag,#{E:@catppuccin_window_flags_icon_activity},}##{?window_bell_flag,#{E:@catppuccin_window_flags_icon_bell},}##{?window_silence_flag,#{E:@catppuccin_window_flags_icon_silent},}##{?window_active,#{E:@catppuccin_window_flags_icon_current},}##{?window_last_flag,#{E:@catppuccin_window_flags_icon_last},}##{?window_marked_flag,#{E:@catppuccin_window_flags_icon_mark},}##{?window_zoomed_flag,#{E:@catppuccin_window_flags_icon_zoom},} "
 
